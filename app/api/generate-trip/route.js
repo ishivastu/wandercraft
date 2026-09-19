@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { ai } from '../../lib/gemini';
-import redis from '../../lib/redis';
+import { ai } from '@/lib/gemini';
+import redis from '@/lib/redis';
 
 export async function POST(req) {
   try {

@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import connectDB from '@/lib/mongodb';
-import Trip from '@/models/Trip';
+import connectDB from '../../../../lib/mongodb';
+import Trip from '../../../../models/Trip';
 
 export async function POST(req) {
   try {
